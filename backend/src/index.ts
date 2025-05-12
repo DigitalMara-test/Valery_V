@@ -32,7 +32,6 @@ async function main() {
       console.log(`Server is running on http://localhost:${port}`);
     });
   } catch (err) {
-    console.error('Failed to initialize database or server:', err);
     process.exit(1);
   }
 }
