@@ -1,6 +1,5 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { Pool } from 'pg';
 import routes from './routes';
 import dotenv from 'dotenv';
 import cors from 'cors';
